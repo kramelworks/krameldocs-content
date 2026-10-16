@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "title": "Início",
+      "file": "index.md",
+      "icon": "house"
+    },
+    {
+      "title": "Guias",
+      "icon": "book-open",
+      "items": [
+        {
+          "title": "Instalação",
+          "file": "guias/instalacao.md",
+          "icon": "terminal"
+        },
+        {
+          "title": "Configuração",
+          "file": "guias/configuracao.md",
+          "icon": "settings"
+        }
+      ]
+    },
+    {
+      "title": "Referência",
+      "icon": "code",
+      "items": [
+        {
+          "title": "API",
+          "file": "referencia/api.md",
+          "icon": "file-code"
+        }
+      ]
+    }
+  ]
+}
