@@ -9,9 +9,7 @@ Siga os passos abaixo para preparar o ambiente.
 ```bash
 npm install
 npm run dev
-
-**`guias/configuracao.md`**
-```markdown
+```
 # Configuração
 
 Configure o projeto usando as variáveis de ambiente necessárias.
