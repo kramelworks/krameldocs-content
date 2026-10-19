@@ -18,3 +18,9 @@ Configure o projeto usando as variáveis de ambiente necessárias.
 |---|---|
 | `DOCS_GIT_BRANCH` | Branch da documentação |
 | `DOCS_CACHE_TTL` | Tempo de cache em segundos |
+
+## Arquitetura
+
+A imagem abaixo é carregada pelo krameldocs a partir do repositório de conteúdo.
+
+![Diagrama de arquitetura](../assets/arquitetura.png)
