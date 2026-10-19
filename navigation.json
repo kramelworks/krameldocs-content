@@ -1,8 +1,13 @@
 ﻿{
   "items": [
     {
+      "title": "Início",
+      "file": "index.md",
+      "icon": "house"
+    },
+    {
       "title": "01. Visão geral",
-      "icon": "house",
+      "icon": "book-open",
       "items": [
         {
           "title": "Apresentação",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "title": "03. Guias de uso",
-      "icon": "book-open",
+      "title": "03. Guias",
+      "icon": "book",
       "items": [
         {
           "title": "Estrutura do conteúdo",
@@ -75,12 +80,16 @@
       "icon": "layers",
       "items": [
         {
-          "title": "Visão geral da arquitetura",
+          "title": "Visão geral",
           "file": "04-arquitetura/visao-geral.md"
         },
         {
           "title": "Estrutura do código",
           "file": "04-arquitetura/estrutura-do-codigo.md"
+        },
+        {
+          "title": "Decisões técnicas",
+          "file": "04-arquitetura/decisoes-tecnicas.md"
         },
         {
           "title": "Integração com GitHub",
@@ -95,21 +104,17 @@
           "file": "04-arquitetura/cache.md"
         },
         {
-          "title": "Decisões técnicas",
-          "file": "04-arquitetura/decisoes-tecnicas.md"
+          "title": "Variáveis de ambiente",
+          "file": "04-arquitetura/variaveis-de-ambiente.md"
         }
       ]
     },
     {
-      "title": "05. Referência técnica",
+      "title": "05. Referência",
       "icon": "code",
       "items": [
         {
-          "title": "Variáveis de ambiente",
-          "file": "04-arquitetura/variaveis-de-ambiente.md"
-        },
-        {
-          "title": "Rotas da aplicação",
+          "title": "Rotas",
           "file": "05-referencia/rotas.md"
         },
         {
@@ -117,11 +122,11 @@
           "file": "05-referencia/api-arquivos.md"
         },
         {
-          "title": "Configuração da navegação",
+          "title": "Navigation JSON",
           "file": "05-referencia/navigation-json.md"
         },
         {
-          "title": "Comandos disponíveis",
+          "title": "Comandos",
           "file": "05-referencia/comandos.md"
         },
         {
@@ -129,7 +134,7 @@
           "file": "05-referencia/dependencias.md"
         },
         {
-          "title": "Limitações conhecidas",
+          "title": "Limitações",
           "file": "05-referencia/limitacoes.md"
         }
       ]
@@ -143,22 +148,22 @@
           "file": "06-seguranca/modelo-de-seguranca.md"
         },
         {
-          "title": "Tokens e segredos",
-          "file": "06-seguranca/tokens-e-segredos.md"
-        },
-        {
           "title": "Validação de caminhos",
           "file": "06-seguranca/validacao-de-caminhos.md"
         },
         {
-          "title": "Sanitização de conteúdo",
+          "title": "Sanitização",
           "file": "06-seguranca/sanitizacao.md"
+        },
+        {
+          "title": "Tokens e segredos",
+          "file": "06-seguranca/tokens-e-segredos.md"
         }
       ]
     },
     {
-      "title": "07. Implantação e operações",
-      "icon": "server",
+      "title": "07. Operações",
+      "icon": "settings",
       "items": [
         {
           "title": "Ambientes",
@@ -169,67 +174,63 @@
           "file": "07-operacoes/deploy-vercel.md"
         },
         {
-          "title": "Domínio personalizado",
+          "title": "Domínio",
           "file": "07-operacoes/dominio.md"
         },
         {
-          "title": "Cache e atualização de conteúdo",
+          "title": "Cache e atualização",
           "file": "07-operacoes/cache-e-atualizacao.md"
-        },
-        {
-          "title": "Monitoramento e logs",
-          "file": "07-operacoes/monitoramento.md"
         },
         {
           "title": "Backup e recuperação",
           "file": "07-operacoes/backup-recuperacao.md"
+        },
+        {
+          "title": "Monitoramento",
+          "file": "07-operacoes/monitoramento.md"
         }
       ]
     },
     {
       "title": "08. Desenvolvimento",
-      "icon": "code-2",
+      "icon": "terminal",
       "items": [
         {
-          "title": "Preparar ambiente",
+          "title": "Ambiente de desenvolvimento",
           "file": "08-desenvolvimento/ambiente.md"
         },
         {
-          "title": "Padrões de código",
-          "file": "08-desenvolvimento/padroes.md"
-        },
-        {
-          "title": "Testes e qualidade",
-          "file": "08-desenvolvimento/testes.md"
+          "title": "Contribuir",
+          "file": "08-desenvolvimento/contribuir.md"
         },
         {
           "title": "Fluxo Git",
           "file": "08-desenvolvimento/fluxo-git.md"
         },
         {
-          "title": "Como contribuir",
-          "file": "08-desenvolvimento/contribuir.md"
+          "title": "Testes",
+          "file": "08-desenvolvimento/testes.md"
         }
       ]
     },
     {
       "title": "09. Solução de problemas",
-      "icon": "life-buoy",
+      "icon": "wrench",
       "items": [
         {
-          "title": "Problemas de configuração",
+          "title": "Configuração",
           "file": "09-solucao-problemas/configuracao.md"
         },
         {
-          "title": "Problemas com GitHub",
+          "title": "GitHub",
           "file": "09-solucao-problemas/github.md"
         },
         {
-          "title": "Problemas de build e deploy",
+          "title": "Build e deploy",
           "file": "09-solucao-problemas/build-deploy.md"
         },
         {
-          "title": "Problemas com imagens e anexos",
+          "title": "Assets",
           "file": "09-solucao-problemas/assets.md"
         }
       ]
@@ -243,7 +244,7 @@
           "file": "10-historico/changelog.md"
         },
         {
-          "title": "Versionamento e compatibilidade",
+          "title": "Versionamento",
           "file": "10-historico/versionamento.md"
         }
       ]
