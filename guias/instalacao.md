@@ -24,3 +24,7 @@ Configure o projeto usando as variáveis de ambiente necessárias.
 A imagem abaixo é carregada pelo krameldocs a partir do repositório de conteúdo.
 
 ![Diagrama de arquitetura](assets/arquitetura.png)
+
+## Material complementar
+
+[Consultar o manual em PDF](assets/manual.pdf)
