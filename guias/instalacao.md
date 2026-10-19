@@ -27,4 +27,4 @@ A imagem abaixo é carregada pelo krameldocs a partir do repositório de conteú
 
 ## Material complementar
 
-[Consultar o manual em PDF](assets/manual.pdf)
+[Consultar o manual em PDF](assets/teste.pdf)
