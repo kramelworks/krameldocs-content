@@ -1,258 +1,258 @@
-{
-  "items": [
-    {
-      "title": "krameldocs",
-      "icon": "book-open",
-      "items": [
-        {
-          "title": "01. Visão geral",
-          "icon": "house",
-          "items": [
-            {
-              "title": "Apresentação",
-              "file": "krameldocs/01-visao-geral/apresentacao.md"
-            },
-            {
-              "title": "Objetivos e funcionalidades",
-              "file": "krameldocs/01-visao-geral/objetivos-e-funcionalidades.md"
-            },
-            {
-              "title": "Conceitos principais",
-              "file": "krameldocs/01-visao-geral/conceitos.md"
-            },
-            {
-              "title": "Glossário",
-              "file": "krameldocs/01-visao-geral/glossario.md"
-            }
-          ]
-        },
-        {
-          "title": "02. Primeiros passos",
-          "icon": "rocket",
-          "items": [
-            {
-              "title": "Pré-requisitos",
-              "file": "krameldocs/02-primeiros-passos/pre-requisitos.md"
-            },
-            {
-              "title": "Instalação local",
-              "file": "krameldocs/02-primeiros-passos/instalacao-local.md"
-            },
-            {
-              "title": "Configuração inicial",
-              "file": "krameldocs/02-primeiros-passos/configuracao-inicial.md"
-            },
-            {
-              "title": "Primeira execução",
-              "file": "krameldocs/02-primeiros-passos/primeira-execucao.md"
-            }
-          ]
-        },
-        {
-          "title": "03. Guias de uso",
-          "icon": "book-open",
-          "items": [
-            {
-              "title": "Estrutura do conteúdo",
-              "file": "krameldocs/03-guias/estrutura-do-conteudo.md"
-            },
-            {
-              "title": "Organização da navegação",
-              "file": "krameldocs/03-guias/organizacao-da-navegacao.md"
-            },
-            {
-              "title": "Escrever em Markdown",
-              "file": "krameldocs/03-guias/escrever-markdown.md"
-            },
-            {
-              "title": "Links, imagens e anexos",
-              "file": "krameldocs/03-guias/links-imagens-anexos.md"
-            },
-            {
-              "title": "Publicar alterações",
-              "file": "krameldocs/03-guias/publicar-alteracoes.md"
-            }
-          ]
-        },
-        {
-          "title": "04. Arquitetura",
-          "icon": "layers",
-          "items": [
-            {
-              "title": "Visão geral da arquitetura",
-              "file": "krameldocs/04-arquitetura/visao-geral.md"
-            },
-            {
-              "title": "Estrutura do código",
-              "file": "krameldocs/04-arquitetura/estrutura-do-codigo.md"
-            },
-            {
-              "title": "Integração com GitHub",
-              "file": "krameldocs/04-arquitetura/integracao-github.md"
-            },
-            {
-              "title": "Pipeline Markdown",
-              "file": "krameldocs/04-arquitetura/pipeline-markdown.md"
-            },
-            {
-              "title": "Cache",
-              "file": "krameldocs/04-arquitetura/cache.md"
-            },
-            {
-              "title": "Decisões técnicas",
-              "file": "krameldocs/04-arquitetura/decisoes-tecnicas.md"
-            }
-          ]
-        },
-        {
-          "title": "05. Referência técnica",
-          "icon": "code",
-          "items": [
-            {
-              "title": "Variáveis de ambiente",
-              "file": "krameldocs/05-referencia/variaveis-de-ambiente.md"
-            },
-            {
-              "title": "Rotas da aplicação",
-              "file": "krameldocs/05-referencia/rotas.md"
-            },
-            {
-              "title": "API de arquivos",
-              "file": "krameldocs/05-referencia/api-arquivos.md"
-            },
-            {
-              "title": "Configuração da navegação",
-              "file": "krameldocs/05-referencia/navigation-json.md"
-            },
-            {
-              "title": "Comandos disponíveis",
-              "file": "krameldocs/05-referencia/comandos.md"
-            },
-            {
-              "title": "Dependências",
-              "file": "krameldocs/05-referencia/dependencias.md"
-            },
-            {
-              "title": "Limitações conhecidas",
-              "file": "krameldocs/05-referencia/limitacoes.md"
-            }
-          ]
-        },
-        {
-          "title": "06. Segurança",
-          "icon": "shield-check",
-          "items": [
-            {
-              "title": "Modelo de segurança",
-              "file": "krameldocs/06-seguranca/modelo-de-seguranca.md"
-            },
-            {
-              "title": "Tokens e segredos",
-              "file": "krameldocs/06-seguranca/tokens-e-segredos.md"
-            },
-            {
-              "title": "Validação de caminhos",
-              "file": "krameldocs/06-seguranca/validacao-de-caminhos.md"
-            },
-            {
-              "title": "Sanitização de conteúdo",
-              "file": "krameldocs/06-seguranca/sanitizacao.md"
-            }
-          ]
-        },
-        {
-          "title": "07. Implantação e operações",
-          "icon": "server",
-          "items": [
-            {
-              "title": "Ambientes",
-              "file": "krameldocs/07-operacoes/ambientes.md"
-            },
-            {
-              "title": "Deploy na Vercel",
-              "file": "krameldocs/07-operacoes/deploy-vercel.md"
-            },
-            {
-              "title": "Domínio personalizado",
-              "file": "krameldocs/07-operacoes/dominio.md"
-            },
-            {
-              "title": "Cache e atualização de conteúdo",
-              "file": "krameldocs/07-operacoes/cache-e-atualizacao.md"
-            },
-            {
-              "title": "Monitoramento e logs",
-              "file": "krameldocs/07-operacoes/monitoramento.md"
-            },
-            {
-              "title": "Backup e recuperação",
-              "file": "krameldocs/07-operacoes/backup-recuperacao.md"
-            }
-          ]
-        },
-        {
-          "title": "08. Desenvolvimento",
-          "icon": "code-2",
-          "items": [
-            {
-              "title": "Preparar ambiente",
-              "file": "krameldocs/08-desenvolvimento/ambiente.md"
-            },
-            {
-              "title": "Padrões de código",
-              "file": "krameldocs/08-desenvolvimento/padroes.md"
-            },
-            {
-              "title": "Testes e qualidade",
-              "file": "krameldocs/08-desenvolvimento/testes.md"
-            },
-            {
-              "title": "Fluxo Git",
-              "file": "krameldocs/08-desenvolvimento/fluxo-git.md"
-            },
-            {
-              "title": "Como contribuir",
-              "file": "krameldocs/08-desenvolvimento/contribuir.md"
-            }
-          ]
-        },
-        {
-          "title": "09. Solução de problemas",
-          "icon": "life-buoy",
-          "items": [
-            {
-              "title": "Problemas de configuração",
-              "file": "krameldocs/09-solucao-problemas/configuracao.md"
-            },
-            {
-              "title": "Problemas com GitHub",
-              "file": "krameldocs/09-solucao-problemas/github.md"
-            },
-            {
-              "title": "Problemas de build e deploy",
-              "file": "krameldocs/09-solucao-problemas/build-deploy.md"
-            },
-            {
-              "title": "Problemas com imagens e anexos",
-              "file": "krameldocs/09-solucao-problemas/assets.md"
-            }
-          ]
-        },
-        {
-          "title": "10. Histórico",
-          "icon": "history",
-          "items": [
-            {
-              "title": "Changelog",
-              "file": "krameldocs/10-historico/changelog.md"
-            },
-            {
-              "title": "Versionamento e compatibilidade",
-              "file": "krameldocs/10-historico/versionamento.md"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+﻿{
+    "items":  [
+                  {
+                      "title":  "krameldocs",
+                      "icon":  "book-open",
+                      "items":  [
+                                    {
+                                        "title":  "01. Visão geral",
+                                        "icon":  "house",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Apresentação",
+                                                          "file":  "01-visao-geral/apresentacao.md"
+                                                      },
+                                                      {
+                                                          "title":  "Objetivos e funcionalidades",
+                                                          "file":  "01-visao-geral/objetivos-e-funcionalidades.md"
+                                                      },
+                                                      {
+                                                          "title":  "Conceitos principais",
+                                                          "file":  "01-visao-geral/conceitos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Glossário",
+                                                          "file":  "01-visao-geral/glossario.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "02. Primeiros passos",
+                                        "icon":  "rocket",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Pré-requisitos",
+                                                          "file":  "02-primeiros-passos/pre-requisitos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Instalação local",
+                                                          "file":  "02-primeiros-passos/instalacao-local.md"
+                                                      },
+                                                      {
+                                                          "title":  "Configuração inicial",
+                                                          "file":  "02-primeiros-passos/configuracao-inicial.md"
+                                                      },
+                                                      {
+                                                          "title":  "Primeira execução",
+                                                          "file":  "02-primeiros-passos/primeira-execucao.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "03. Guias de uso",
+                                        "icon":  "book-open",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Estrutura do conteúdo",
+                                                          "file":  "03-guias/estrutura-do-conteudo.md"
+                                                      },
+                                                      {
+                                                          "title":  "Organização da navegação",
+                                                          "file":  "03-guias/organizacao-da-navegacao.md"
+                                                      },
+                                                      {
+                                                          "title":  "Escrever em Markdown",
+                                                          "file":  "03-guias/escrever-markdown.md"
+                                                      },
+                                                      {
+                                                          "title":  "Links, imagens e anexos",
+                                                          "file":  "03-guias/links-imagens-anexos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Publicar alterações",
+                                                          "file":  "03-guias/publicar-alteracoes.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "04. Arquitetura",
+                                        "icon":  "layers",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Visão geral da arquitetura",
+                                                          "file":  "04-arquitetura/visao-geral.md"
+                                                      },
+                                                      {
+                                                          "title":  "Estrutura do código",
+                                                          "file":  "04-arquitetura/estrutura-do-codigo.md"
+                                                      },
+                                                      {
+                                                          "title":  "Integração com GitHub",
+                                                          "file":  "04-arquitetura/integracao-github.md"
+                                                      },
+                                                      {
+                                                          "title":  "Pipeline Markdown",
+                                                          "file":  "04-arquitetura/pipeline-markdown.md"
+                                                      },
+                                                      {
+                                                          "title":  "Cache",
+                                                          "file":  "04-arquitetura/cache.md"
+                                                      },
+                                                      {
+                                                          "title":  "Decisões técnicas",
+                                                          "file":  "04-arquitetura/decisoes-tecnicas.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "05. Referência técnica",
+                                        "icon":  "code",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Variáveis de ambiente",
+                                                          "file":  "04-arquitetura/variaveis-de-ambiente.md"
+                                                      },
+                                                      {
+                                                          "title":  "Rotas da aplicação",
+                                                          "file":  "05-referencia/rotas.md"
+                                                      },
+                                                      {
+                                                          "title":  "API de arquivos",
+                                                          "file":  "05-referencia/api-arquivos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Configuração da navegação",
+                                                          "file":  "05-referencia/navigation-json.md"
+                                                      },
+                                                      {
+                                                          "title":  "Comandos disponíveis",
+                                                          "file":  "05-referencia/comandos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Dependências",
+                                                          "file":  "05-referencia/dependencias.md"
+                                                      },
+                                                      {
+                                                          "title":  "Limitações conhecidas",
+                                                          "file":  "05-referencia/limitacoes.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "06. Segurança",
+                                        "icon":  "shield-check",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Modelo de segurança",
+                                                          "file":  "06-seguranca/modelo-de-seguranca.md"
+                                                      },
+                                                      {
+                                                          "title":  "Tokens e segredos",
+                                                          "file":  "06-seguranca/tokens-e-segredos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Validação de caminhos",
+                                                          "file":  "06-seguranca/validacao-de-caminhos.md"
+                                                      },
+                                                      {
+                                                          "title":  "Sanitização de conteúdo",
+                                                          "file":  "06-seguranca/sanitizacao.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "07. Implantação e operações",
+                                        "icon":  "server",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Ambientes",
+                                                          "file":  "07-operacoes/ambientes.md"
+                                                      },
+                                                      {
+                                                          "title":  "Deploy na Vercel",
+                                                          "file":  "07-operacoes/deploy-vercel.md"
+                                                      },
+                                                      {
+                                                          "title":  "Domínio personalizado",
+                                                          "file":  "07-operacoes/dominio.md"
+                                                      },
+                                                      {
+                                                          "title":  "Cache e atualização de conteúdo",
+                                                          "file":  "07-operacoes/cache-e-atualizacao.md"
+                                                      },
+                                                      {
+                                                          "title":  "Monitoramento e logs",
+                                                          "file":  "07-operacoes/monitoramento.md"
+                                                      },
+                                                      {
+                                                          "title":  "Backup e recuperação",
+                                                          "file":  "07-operacoes/backup-recuperacao.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "08. Desenvolvimento",
+                                        "icon":  "code-2",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Preparar ambiente",
+                                                          "file":  "08-desenvolvimento/ambiente.md"
+                                                      },
+                                                      {
+                                                          "title":  "Padrões de código",
+                                                          "file":  "08-desenvolvimento/padroes.md"
+                                                      },
+                                                      {
+                                                          "title":  "Testes e qualidade",
+                                                          "file":  "08-desenvolvimento/testes.md"
+                                                      },
+                                                      {
+                                                          "title":  "Fluxo Git",
+                                                          "file":  "08-desenvolvimento/fluxo-git.md"
+                                                      },
+                                                      {
+                                                          "title":  "Como contribuir",
+                                                          "file":  "08-desenvolvimento/contribuir.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "09. Solução de problemas",
+                                        "icon":  "life-buoy",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Problemas de configuração",
+                                                          "file":  "09-solucao-problemas/configuracao.md"
+                                                      },
+                                                      {
+                                                          "title":  "Problemas com GitHub",
+                                                          "file":  "09-solucao-problemas/github.md"
+                                                      },
+                                                      {
+                                                          "title":  "Problemas de build e deploy",
+                                                          "file":  "09-solucao-problemas/build-deploy.md"
+                                                      },
+                                                      {
+                                                          "title":  "Problemas com imagens e anexos",
+                                                          "file":  "09-solucao-problemas/assets.md"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "title":  "10. Histórico",
+                                        "icon":  "history",
+                                        "items":  [
+                                                      {
+                                                          "title":  "Changelog",
+                                                          "file":  "10-historico/changelog.md"
+                                                      },
+                                                      {
+                                                          "title":  "Versionamento e compatibilidade",
+                                                          "file":  "10-historico/versionamento.md"
+                                                      }
+                                                  ]
+                                    }
+                                ]
+                  }
+              ]
 }
