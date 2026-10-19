@@ -6,246 +6,29 @@
       "icon": "house"
     },
     {
-      "title": "01. Visão geral",
+      "title": "Guias",
       "icon": "book-open",
       "items": [
         {
-          "title": "Apresentação",
-          "file": "01-visao-geral/apresentacao.md"
+          "title": "Instalação",
+          "file": "guias/instalacao.md",
+          "icon": "terminal"
         },
         {
-          "title": "Objetivos e funcionalidades",
-          "file": "01-visao-geral/objetivos-e-funcionalidades.md"
-        },
-        {
-          "title": "Conceitos principais",
-          "file": "01-visao-geral/conceitos.md"
-        },
-        {
-          "title": "Glossário",
-          "file": "01-visao-geral/glossario.md"
+          "title": "Configuração",
+          "file": "guias/configuracao.md",
+          "icon": "settings"
         }
       ]
     },
     {
-      "title": "02. Primeiros passos",
-      "icon": "rocket",
-      "items": [
-        {
-          "title": "Pré-requisitos",
-          "file": "02-primeiros-passos/pre-requisitos.md"
-        },
-        {
-          "title": "Instalação local",
-          "file": "02-primeiros-passos/instalacao-local.md"
-        },
-        {
-          "title": "Configuração inicial",
-          "file": "02-primeiros-passos/configuracao-inicial.md"
-        },
-        {
-          "title": "Primeira execução",
-          "file": "02-primeiros-passos/primeira-execucao.md"
-        }
-      ]
-    },
-    {
-      "title": "03. Guias",
-      "icon": "book",
-      "items": [
-        {
-          "title": "Estrutura do conteúdo",
-          "file": "03-guias/estrutura-do-conteudo.md"
-        },
-        {
-          "title": "Organização da navegação",
-          "file": "03-guias/organizacao-da-navegacao.md"
-        },
-        {
-          "title": "Escrever em Markdown",
-          "file": "03-guias/escrever-markdown.md"
-        },
-        {
-          "title": "Links, imagens e anexos",
-          "file": "03-guias/links-imagens-anexos.md"
-        },
-        {
-          "title": "Publicar alterações",
-          "file": "03-guias/publicar-alteracoes.md"
-        }
-      ]
-    },
-    {
-      "title": "04. Arquitetura",
-      "icon": "layers",
-      "items": [
-        {
-          "title": "Visão geral",
-          "file": "04-arquitetura/visao-geral.md"
-        },
-        {
-          "title": "Estrutura do código",
-          "file": "04-arquitetura/estrutura-do-codigo.md"
-        },
-        {
-          "title": "Decisões técnicas",
-          "file": "04-arquitetura/decisoes-tecnicas.md"
-        },
-        {
-          "title": "Integração com GitHub",
-          "file": "04-arquitetura/integracao-github.md"
-        },
-        {
-          "title": "Pipeline Markdown",
-          "file": "04-arquitetura/pipeline-markdown.md"
-        },
-        {
-          "title": "Cache",
-          "file": "04-arquitetura/cache.md"
-        },
-        {
-          "title": "Variáveis de ambiente",
-          "file": "04-arquitetura/variaveis-de-ambiente.md"
-        }
-      ]
-    },
-    {
-      "title": "05. Referência",
+      "title": "Referência",
       "icon": "code",
       "items": [
         {
-          "title": "Rotas",
-          "file": "05-referencia/rotas.md"
-        },
-        {
-          "title": "API de arquivos",
-          "file": "05-referencia/api-arquivos.md"
-        },
-        {
-          "title": "Navigation JSON",
-          "file": "05-referencia/navigation-json.md"
-        },
-        {
-          "title": "Comandos",
-          "file": "05-referencia/comandos.md"
-        },
-        {
-          "title": "Dependências",
-          "file": "05-referencia/dependencias.md"
-        },
-        {
-          "title": "Limitações",
-          "file": "05-referencia/limitacoes.md"
-        }
-      ]
-    },
-    {
-      "title": "06. Segurança",
-      "icon": "shield-check",
-      "items": [
-        {
-          "title": "Modelo de segurança",
-          "file": "06-seguranca/modelo-de-seguranca.md"
-        },
-        {
-          "title": "Validação de caminhos",
-          "file": "06-seguranca/validacao-de-caminhos.md"
-        },
-        {
-          "title": "Sanitização",
-          "file": "06-seguranca/sanitizacao.md"
-        },
-        {
-          "title": "Tokens e segredos",
-          "file": "06-seguranca/tokens-e-segredos.md"
-        }
-      ]
-    },
-    {
-      "title": "07. Operações",
-      "icon": "settings",
-      "items": [
-        {
-          "title": "Ambientes",
-          "file": "07-operacoes/ambientes.md"
-        },
-        {
-          "title": "Deploy na Vercel",
-          "file": "07-operacoes/deploy-vercel.md"
-        },
-        {
-          "title": "Domínio",
-          "file": "07-operacoes/dominio.md"
-        },
-        {
-          "title": "Cache e atualização",
-          "file": "07-operacoes/cache-e-atualizacao.md"
-        },
-        {
-          "title": "Backup e recuperação",
-          "file": "07-operacoes/backup-recuperacao.md"
-        },
-        {
-          "title": "Monitoramento",
-          "file": "07-operacoes/monitoramento.md"
-        }
-      ]
-    },
-    {
-      "title": "08. Desenvolvimento",
-      "icon": "terminal",
-      "items": [
-        {
-          "title": "Ambiente de desenvolvimento",
-          "file": "08-desenvolvimento/ambiente.md"
-        },
-        {
-          "title": "Contribuir",
-          "file": "08-desenvolvimento/contribuir.md"
-        },
-        {
-          "title": "Fluxo Git",
-          "file": "08-desenvolvimento/fluxo-git.md"
-        },
-        {
-          "title": "Testes",
-          "file": "08-desenvolvimento/testes.md"
-        }
-      ]
-    },
-    {
-      "title": "09. Solução de problemas",
-      "icon": "wrench",
-      "items": [
-        {
-          "title": "Configuração",
-          "file": "09-solucao-problemas/configuracao.md"
-        },
-        {
-          "title": "GitHub",
-          "file": "09-solucao-problemas/github.md"
-        },
-        {
-          "title": "Build e deploy",
-          "file": "09-solucao-problemas/build-deploy.md"
-        },
-        {
-          "title": "Assets",
-          "file": "09-solucao-problemas/assets.md"
-        }
-      ]
-    },
-    {
-      "title": "10. Histórico",
-      "icon": "history",
-      "items": [
-        {
-          "title": "Changelog",
-          "file": "10-historico/changelog.md"
-        },
-        {
-          "title": "Versionamento",
-          "file": "10-historico/versionamento.md"
+          "title": "API",
+          "file": "referencia/api.md",
+          "icon": "file-code"
         }
       ]
     }
